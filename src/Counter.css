@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 20px;
+}
+
+.inc-btn,
+.dec-btn {
+  padding: 20px;
+  font-size: 24px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.counter-value {
+  background-color: rgb(0, 106, 255);
+  padding: 20px 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
